@@ -1,0 +1,87 @@
+/* Reset */
+body, h1, p, button {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  box-sizing: border-box;
+}
+
+/* Background and general */
+body {
+  background: linear-gradient(to bottom, #1a1a1a, #2c2c2c);
+  color: #f5f5f5;
+  padding: 20px;
+}
+
+/* Navbar & stats */
+.navbar {
+  background-color: #2b2b2b;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.stat {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-around;
+}
+
+.stat-item {
+  background-color: #3d3d3d;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 1.1em;
+}
+
+/* Content */
+.content {
+  background-color: #242424;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+
+.title h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+
+.description p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.image img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Action buttons */
+.action {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.action-button {
+  background-color: #4a4a4a;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #6b6b6b;
+}
