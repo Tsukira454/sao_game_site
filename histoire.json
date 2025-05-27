@@ -1,0 +1,21 @@
+{
+  "chapitre_1": {
+    "acte_1": {
+      "titre": "Le commencement",
+      "description": "Tu décides de mettre ton casque virtuel mais par malheur, tu te retrouves dans un monde virtuel où tu dois combattre des créatures.",
+      "image": "img/chapitre_1/acte_1.png",
+      "actions": [
+        "🏃 Découvrir"
+      ]
+    },
+    "acte_2": {
+      "titre": "Le premier combat",
+      "description": "Après avoir découvert ce monde, tu rencontres ta première créature. Tu dois te préparer à combattre.",
+      "image": "img/chapitre_1/acte_2.png",
+      "actions": [
+        "⚔️ Combattre",
+        "🛡️ Se défendre"
+      ]
+    }
+  }
+}

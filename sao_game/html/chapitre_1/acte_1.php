@@ -1,28 +1,40 @@
+<?php
+session_start();
+$chapter = $_SESSION['chapter'];
+$acte = $_SESSION['acte'];
+$vie = $_SESSION['vie'];
+$exp = $_SESSION['exp'];
+$armor = $_SESSION['armor'];
+$strength = $_SESSION['strength'];
+$damage = $_SESSION['damage'];
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/base.css" />
-  <title>Jeu Aventure</title>
+  <link rel="stylesheet" href="../../css/base.css" />
+  <title>Chapitre 1 - Acte 1</title>
 </head>
 <body>
   <nav class="navbar">
     <div class="stat">
       <div class="stat-item">
-        ❤️ Vie : <span id="Vie">ERREUR_VIE</span>
+        ❤️ Vie : <span id="Vie"><?php echo $_SESSION['vie']; ?></span>
       </div>
       <div class="stat-item">
-        ⭐ Exp : <span id="Experience">ERREUR_EXP</span>
+        ⭐ Exp : <span id="Experience"><?php echo $_SESSION['exp']; ?></span>
       </div>
       <div class="stat-item">
-        🛡️ Armure : <span id="Armure">ERREUR_ARMOR</span>
+        🛡️ Armure : <span id="Armure"><?php echo $_SESSION['armor']; ?></span>
       </div>
       <div class="stat-item">
-        💪 Force : <span id="Force">ERREUR_FORCE</span>
+        💪 Force : <span id="Force"><?php echo $_SESSION['strength']; ?></span>
       </div>
       <div class="stat-item">
-        ⚔️ Dégâts : <span id="Dégats">ERREUR_DEGATS</span>
+        ⚔️ Dégâts : <span id="Dégats"><?php echo $_SESSION['damage']; ?></span>
       </div>
     </div>
   </nav>
